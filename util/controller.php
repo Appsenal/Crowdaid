@@ -1,0 +1,1 @@
+<?php 	class Controller {		//private $default_controller = "home";		public function loadController($controllerName){			//include("../controller/".$controllerName.".php");			//include($_SERVER['DOCUMENT_ROOT']."/controller/".$controllerName.".php");	//		echo $_SERVER['DOCUMENT_ROOT']."/controller/".$controllerName.".php";		}	}	//echo "test";?>

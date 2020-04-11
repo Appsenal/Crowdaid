@@ -1,0 +1,382 @@
+html {
+	/*font-family: Lato;*/
+	font-family: "Noto Sans",sans-serif;
+}
+				
+body {
+	/*background-color: lightblue;*/
+	margin: 0px;	
+	background: #e7eef4;
+	/*background: #4c4c4b;*/
+}
+									
+h1, h2, h3 {
+	/*color: white;*/
+	/*text-align: center;*/
+	margin: 0px;
+	color: #1d8be8;
+}
+
+h4 {
+	margin: 0px;
+	color: #4c4c4b;
+}
+
+p {						
+	/*margin-top: 1px;*/
+	font-size: 15px;
+	/*background-color: #f2f8ff;						
+	padding:20px;*/	
+	color: #4c4c4b;
+}
+					
+#header {		
+	padding: 10px 25px;
+	background-color: #fff;
+}
+
+#header  h1{
+	font-size: 40px;
+}
+
+#header-box {
+	float: right;
+	width: 190px;
+	text-align:right;
+}
+
+#username-label {
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: #1d8be8;
+	/*height: 50px;*/
+}
+
+#logout {
+	/*float: right;*/
+}
+
+#logo {
+	float: left;
+	margin-right: 10px;
+}
+
+#menu {
+	color: white;
+	/*background-color: #285582;*/
+	padding: 5px 20px;
+	font-weight: bold;
+	background: #1d8be8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1e90f0, #1b83db); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1e90f0, #1b83db); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1e90f0, #1b83db); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1e90f0, #1b83db); /* Standard syntax */
+	box-shadow: 0px 1px 5px #888888;
+}
+
+#menu  a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menu  a:hover {
+	/*text-decoration: underline;*/
+	background: #176cb4;
+}
+
+#menu  a.menu-selected {
+	background: #176cb4;
+}
+					
+#content {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 1px;
+	background: #fff;
+	margin-left: 25px;
+	margin-right: 25px;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+#content h2 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#content p {
+}
+
+.content-box {
+	margin-bottom: 20px;
+}
+
+#post-box {
+	
+}
+
+#view-box {
+	
+}
+
+#add-request {
+	float: right;
+	padding-top: 3px;
+	color: #fff;
+	background: #064272;
+}
+
+#add-request:hover {
+	background: #1d8be8;
+}
+
+.tab-label {
+	margin-bottom: 3px;
+	position: relative;
+	z-index: 0;
+}
+
+.tab {
+	padding: 5px 10px;
+	background: #e0e0e0;
+	margin-right: 5px;
+	box-shadow: 0px -2px 2px #888888;
+	text-decoration: none;
+	color: #4c4c4b;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 15px;
+}
+
+.tab:hover {
+	background: #efefef;
+}
+
+.tab-focus {
+	background: #f4f4f4;
+}
+
+.tab-content {
+	position: relative;
+	z-index: 1;
+	background: #f4f4f4;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #888888;
+	border-radius: 0px 5px 5px 5px;
+}
+
+.link-button {
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 22px;
+	margin: 10px 0 0 5px;
+	text-align: center;
+	text-decoration: none;
+	background: #1d8be8;
+}
+
+.link-button:hover {
+	background: #176cb4;
+}
+
+.page-content {
+	background: #f4f4f4;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #888888;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.panel-box {
+	padding-top: 10px;
+	padding-bottom: 1px;
+    padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+}
+
+#photo-box {
+	/*background: #e7eef4;*/
+	margin-bottom: 10px;
+	padding: 0px 10px;
+	border-top: solid 1px #d8d7d7;
+}
+
+#photo-upload-form input {
+	/*border: 1px solid #e3e0e0;
+	padding: 3px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 16px;*/
+}
+
+.file-upload {
+	border: 1px solid #e3e0e0;
+	padding: 3px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 13px;
+	background: #fff;
+}
+
+.form-label {
+	font-size: 17px;
+	width: 170px;
+	color: #4c4c4b;
+	float: left;
+}
+
+.text {
+	border: 1px solid #e3e0e0;
+	padding: 3px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.button {
+	border-radius: 5px;
+	color: #fff;
+	/*display: inline-block;*/
+	font-weight: bold;
+	font-size: 13px;
+	/*padding: 11px 24px 10px;*/
+	padding: 5px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	/*background: linear-gradient(to bottom, #3A93E4 0%, #337EBF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+	border: 0px;
+	background: #1d8be8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1e90f0, #1b83db); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1e90f0, #1b83db); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1e90f0, #1b83db); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1e90f0, #1b83db); /* Standard syntax */
+}
+
+.button:hover {
+	background: #176cb4;
+}
+
+a.home-button {
+	font-size: 17px;
+}
+
+#post-table_wrapper, #logged-home-request_wrapper, #logged-home-offer_wrapper {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/*width: 550px;*/
+	/*background: #d1eaff;
+	padding-top: 10px;
+	padding-bottom: 10px;*/
+	border-top: 1px solid #d1eaff;
+	border-bottom: 1px solid #d1eaff;
+	background: #fff;
+	padding: 15px;
+}
+
+#post-table_length, #logged-home-request_length, #logged-home-offer_length {
+	margin-bottom: 5px;
+}
+
+#post-table_wrapper thead, #logged-home-request_wrapper thead, #logged-home-offer_wrapper thead{
+	background: #4c4c4b;
+	color: #fff;
+}
+
+#comment-box {
+	border-top: solid 1px #d8d7d7;
+}
+
+.odd {
+	background: #f2f9ff !important;
+}
+
+.even {}
+
+.paginate_button {
+	padding: 0em 0.5em !important;
+}
+
+.gallery-box {
+	margin-bottom: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.spacer {
+	clear:both;
+}
+
+#footer {
+	padding: 0px 25px;
+	/*border-top: 1px #e2e3e4 solid;
+	color: #fff;*/
+}
+
+/*accordion*/
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	font-size: 14px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, a.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+	padding-top: 1px;
+	padding-bottom: 1px;
+    padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+    display: none;
+} 
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
