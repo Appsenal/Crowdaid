@@ -11,7 +11,7 @@ class Database
 	
 	public static function GetInstance() {
 		if (!isset(self::$instance)) {
-			self::$instance = mysqli_connect("localhost","username","causer","password");
+			self::$instance = mysqli_connect("localhost","username","password","crowdaid");
 			if (mysqli_connect_errno())
 			{
 				echo "Failed to connect to MySQL: " . mysqli_connect_error();
